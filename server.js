@@ -59,6 +59,5 @@ app.delete('/api/quotes/:id',(req,res) => {
     };
    
 })
-//Add other data to the array, such as the year of each quote, and try to display it on the front-end.
 app.use(express.static('public'));
 app.listen(PORT);
